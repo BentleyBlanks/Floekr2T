@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\trace.cpp">
+      <Filter>src\Floekr2T\level\scene\attacker</Filter>
+    </ClCompile>
+    <ClCompile Include="src\attacker.cpp">
+      <Filter>src\Floekr2T\level\scene\attacker</Filter>
+    </ClCompile>
+    <ClCompile Include="src\skill.cpp">
+      <Filter>src\Floekr2T\level\scene\defendor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\defendor.cpp">
+      <Filter>src\Floekr2T\level\scene\defendor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\animation.cpp">
+      <Filter>src\Floekr2T\level\scene\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AABB.cpp">
+      <Filter>src\Floekr2T\level\scene\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\collision.cpp">
+      <Filter>src\Floekr2T\level\scene\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mybutton.cpp">
+      <Filter>src\Floekr2T\level\scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene.cpp">
+      <Filter>src\Floekr2T\level\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\animationManager.cpp">
+      <Filter>src\Floekr2T\level\manager\levelManage\sceneManage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\attackerManager.cpp">
+      <Filter>src\Floekr2T\level\manager\levelManage\sceneManage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\defendorManager.cpp">
+      <Filter>src\Floekr2T\level\manager\levelManage\sceneManage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\guiManager.cpp">
+      <Filter>src\Floekr2T\level\manager\levelManage\sceneManage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\level.cpp">
+      <Filter>src\Floekr2T\level</Filter>
+    </ClCompile>
+    <ClCompile Include="src\levelManager.cpp">
+      <Filter>src\Floekr2T\level\manager\levelManage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sceneManager.cpp">
+      <Filter>src\Floekr2T\level\manager\levelManage\sceneManage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\skillManager.cpp">
+      <Filter>src\Floekr2T\level\manager\levelManage\sceneManage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\guiComponent.cpp">
+      <Filter>src\Floekr2T\level\scene\gui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Floekr2T">
+      <UniqueIdentifier>{39e6ee8a-9afe-45f0-946d-2ff7c1fe5772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Floekr2T\level">
+      <UniqueIdentifier>{4428676b-c7eb-46ec-90c9-a99e197c19e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Floekr2T\level\manager">
+      <UniqueIdentifier>{6c439f4c-4ebe-4399-bc2d-bfe78627d18a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Floekr2T\level\manager\levelManage">
+      <UniqueIdentifier>{ed9b2065-dfb5-42e2-9c85-87fcfd68da34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Floekr2T\level\manager\levelManage\sceneManage">
+      <UniqueIdentifier>{13d18689-7e99-456a-a15b-441a11cd09c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Floekr2T\level\scene">
+      <UniqueIdentifier>{43128d8d-4b32-4d52-996b-d17ba0939695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Floekr2T\level\scene\defendor">
+      <UniqueIdentifier>{687c2055-8139-4cef-a0ef-a2ce326e3826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Floekr2T\level\scene\attacker">
+      <UniqueIdentifier>{d556f4a6-20ee-4bd5-9fe9-f2722489ca91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Floekr2T\level\scene\gui">
+      <UniqueIdentifier>{776c9338-779d-4eed-9711-08b5255a1ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Floekr2T\level\scene\animation">
+      <UniqueIdentifier>{460898f6-d91d-4f8c-ac90-69b952c2f4d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Floekr2T\level\scene\collision">
+      <UniqueIdentifier>{427ceb36-e93c-4af5-8edf-a24766282c97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\trace.h">
+      <Filter>src\Floekr2T\level\scene\attacker</Filter>
+    </ClInclude>
+    <ClInclude Include="src\attacker.h">
+      <Filter>src\Floekr2T\level\scene\attacker</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Floekr2T.h">
+      <Filter>src\Floekr2T</Filter>
+    </ClInclude>
+    <ClInclude Include="src\defendor.h">
+      <Filter>src\Floekr2T\level\scene\defendor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\skill.h">
+      <Filter>src\Floekr2T\level\scene\defendor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\settings.h">
+      <Filter>src\Floekr2T</Filter>
+    </ClInclude>
+    <ClInclude Include="src\animation.h">
+      <Filter>src\Floekr2T\level\scene\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AABB.h">
+      <Filter>src\Floekr2T\level\scene\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="src\collision.h">
+      <Filter>src\Floekr2T\level\scene\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mybutton.h">
+      <Filter>src\Floekr2T\level\scene\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene.h">
+      <Filter>src\Floekr2T\level\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\animationManager.h">
+      <Filter>src\Floekr2T\level\manager\levelManage\sceneManage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\attackerManager.h">
+      <Filter>src\Floekr2T\level\manager\levelManage\sceneManage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\defendorManager.h">
+      <Filter>src\Floekr2T\level\manager\levelManage\sceneManage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\guiManager.h">
+      <Filter>src\Floekr2T\level\manager\levelManage\sceneManage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\level.h">
+      <Filter>src\Floekr2T\level</Filter>
+    </ClInclude>
+    <ClInclude Include="src\levelManager.h">
+      <Filter>src\Floekr2T\level\manager\levelManage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\manager.h">
+      <Filter>src\Floekr2T\level\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sceneManager.h">
+      <Filter>src\Floekr2T\level\manager\levelManage\sceneManage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\skillManager.h">
+      <Filter>src\Floekr2T\level\manager\levelManage\sceneManage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\guiComponent.h">
+      <Filter>src\Floekr2T\level\scene\gui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>

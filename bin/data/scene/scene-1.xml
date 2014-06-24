@@ -1,0 +1,392 @@
+<Floekr2T>
+
+<defendor>
+	<d>
+		<!-- String -->
+		<!-- 0 = TRACK -->
+		<!-- 1 = PATH -->
+		<!-- 2 = IGNORE -->
+		<type>0</type>
+
+		<range>380</range>
+
+		<position>
+			<x>100</x>
+
+			<y>300</y>
+		</position>
+
+		<animation>
+			<!-- String -->
+			<folder>Peashooter</folder>
+			<!-- String -->
+			<suffix>png</suffix>
+
+			<sum>12</sum>
+		</animation>
+
+		<skill>
+			<damage>25</damage>
+			<!-- String -->
+			<animation>
+				<folder>PB10</folder>
+				<!-- String -->
+				<suffix>png</suffix>
+
+				<sum>2</sum>
+			</animation>
+
+			<!-- 碰撞盒设定 -->
+			<AABB>
+				<!-- 距离左上角的position偏移量 -->
+				<offsetX>28</offsetX>
+
+				<offsetY>0</offsetY>
+
+				<width>28</width>
+
+				<height>34</height>
+			</AABB>
+		</skill>
+	</d>
+
+	<d>
+		<!-- String -->
+		<type>1</type>
+
+		<range>380</range>
+
+		<position>
+			<x>400</x>
+
+			<y>500</y>
+		</position>
+
+		<animation>
+			<!-- String -->
+			<folder>Blover</folder>
+			<!-- String -->
+			<suffix>png</suffix>
+
+			<sum>30</sum>
+		</animation>
+
+		<skill>
+			<damage>25</damage>
+			<!-- String -->
+			<animation>
+				<folder>PB00</folder>
+				<!-- String -->
+				<suffix>png</suffix>
+
+				<sum>1</sum>
+			</animation>
+
+			<!-- 碰撞盒设定 -->
+			<AABB>
+				<!-- 距离左上角的position偏移量 -->
+				<offsetX>28</offsetX>
+
+				<offsetY>0</offsetY>
+
+				<width>28</width>
+
+				<height>34</height>
+			</AABB>
+		</skill>
+	</d>
+
+	<d>
+		<!-- String -->
+		<type>1</type>
+
+		<range>50</range>
+
+		<position>
+			<x>800</x>
+
+			<y>500</y>
+		</position>
+
+		<animation>
+			<!-- String -->
+			<folder>Blover</folder>
+			<!-- String -->
+			<suffix>png</suffix>
+
+			<sum>30</sum>
+		</animation>
+
+		<skill>
+			<damage>25</damage>
+			<!-- String -->
+			<animation>
+				<folder>PB00</folder>
+				<!-- String -->
+				<suffix>png</suffix>
+
+				<sum>1</sum>
+			</animation>
+
+			<!-- 碰撞盒设定 -->
+			<AABB>
+				<!-- 距离左上角的position偏移量 -->
+				<offsetX>28</offsetX>
+
+				<offsetY>0</offsetY>
+
+				<width>28</width>
+
+				<height>34</height>
+			</AABB>
+		</skill>
+	</d>
+</defendor>
+
+<attacker>
+	<!-- 路径设定 -->
+	<!-- mode分为1234四种选项 -->
+	<!-- 1.turnLeft() -->
+	<!-- 2.turnRight() -->
+	<!-- 3.goStright() -->
+	<!-- 4.goBack() -->
+	<!-- distance为转向之后再行进的距离 -->
+	<a>
+		<trace>
+			<start>
+				<x>620</x>
+				<y>100</y>
+			</start>
+			
+			<t>
+				<mode>2</mode>
+				<distance>600</distance>
+			</t>
+
+			<t>
+				<mode>1</mode>
+				<distance>300</distance>
+			</t>
+
+			<t>
+				<mode>1</mode>
+				<distance>400</distance>
+			</t>
+
+			<t>
+				<mode>1</mode>
+				<distance>0</distance>
+			</t>
+
+			<t>
+				<mode>3</mode>
+				<distance>200</distance>
+			</t>
+		</trace>
+
+		<velocity>1.1</velocity>
+
+		<HP>500</HP>
+
+		<animation>
+			<!-- String -->
+			<folder>ConeheadZomie</folder>
+			<!-- String -->
+			<suffix>png</suffix>
+
+			<sum>20</sum>
+		</animation>
+
+		<!-- 碰撞盒设定 -->
+		<AABB>
+			<!-- 距离左上角的position偏移量 -->
+			<offsetX>90</offsetX>
+
+			<offsetY>30</offsetY>
+
+			<width>60</width>
+
+			<height>100</height>
+		</AABB>
+	</a>
+
+	<a>
+		<trace>
+				<start>
+					<x>420</x>
+					<y>100</y>
+				</start>
+				
+				<t>
+					<mode>2</mode>
+					<distance>600</distance>
+				</t>
+
+				<t>
+					<mode>1</mode>
+					<distance>300</distance>
+				</t>
+
+				<t>
+					<mode>1</mode>
+					<distance>400</distance>
+				</t>
+
+				<t>
+					<mode>1</mode>
+					<distance>0</distance>
+				</t>
+
+				<t>
+					<mode>3</mode>
+					<distance>200</distance>
+				</t>
+			</trace>
+
+			<velocity>1.1</velocity>
+
+			<HP>500</HP>
+
+			<animation>
+				<!-- String -->
+				<folder>ConeheadZomie</folder>
+				<!-- String -->
+				<suffix>png</suffix>
+
+				<sum>20</sum>
+			</animation>
+
+			<!-- 碰撞盒设定 -->
+			<AABB>
+				<!-- 距离左上角的position偏移量 -->
+				<offsetX>90</offsetX>
+
+				<offsetY>30</offsetY>
+
+				<width>60</width>
+
+				<height>100</height>
+			</AABB>
+	</a>
+
+	<a>
+		<trace>
+				<start>
+					<x>120</x>
+					<y>200</y>
+				</start>
+				
+				<t>
+					<mode>2</mode>
+					<distance>600</distance>
+				</t>
+
+				<t>
+					<mode>1</mode>
+					<distance>300</distance>
+				</t>
+
+				<t>
+					<mode>1</mode>
+					<distance>400</distance>
+				</t>
+
+				<t>
+					<mode>1</mode>
+					<distance>0</distance>
+				</t>
+
+				<t>
+					<mode>3</mode>
+					<distance>200</distance>
+				</t>
+			</trace>
+
+			<velocity>1.1</velocity>
+
+			<HP>500</HP>
+
+			<animation>
+				<!-- String -->
+				<folder>ConeheadZomie</folder>
+				<!-- String -->
+				<suffix>png</suffix>
+
+				<sum>20</sum>
+			</animation>
+
+			<!-- 碰撞盒设定 -->
+			<AABB>
+				<!-- 距离左上角的position偏移量 -->
+				<offsetX>90</offsetX>
+
+				<offsetY>30</offsetY>
+
+				<width>60</width>
+
+				<height>100</height>
+			</AABB>		
+	</a>
+
+	<a>
+		<trace>
+				<start>
+					<x>320</x>
+					<y>500</y>
+				</start>
+				
+				<t>
+					<mode>2</mode>
+					<distance>600</distance>
+				</t>
+
+				<t>
+					<mode>1</mode>
+					<distance>300</distance>
+				</t>
+
+				<t>
+					<mode>1</mode>
+					<distance>400</distance>
+				</t>
+
+				<t>
+					<mode>1</mode>
+					<distance>0</distance>
+				</t>
+
+				<t>
+					<mode>3</mode>
+					<distance>200</distance>
+				</t>
+			</trace>
+
+			<velocity>1.1</velocity>
+
+			<HP>500</HP>
+
+			<animation>
+				<!-- String -->
+				<folder>ConeheadZomie</folder>
+				<!-- String -->
+				<suffix>png</suffix>
+
+				<sum>20</sum>
+			</animation>
+
+			<!-- 碰撞盒设定 -->
+			<AABB>
+				<!-- 距离左上角的position偏移量 -->
+				<offsetX>90</offsetX>
+
+				<offsetY>30</offsetY>
+
+				<width>60</width>
+
+				<height>100</height>
+			</AABB>
+	</a>
+
+</attacker>
+
+</Floekr2T>
